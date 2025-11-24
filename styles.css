@@ -332,3 +332,36 @@ footer {
 .mt-2 {
     margin-top: 1rem;
 }
+section h2 {
+        color: #00796b;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        border-bottom: 2px solid #00796b;
+        display: inline-block;
+        padding-bottom: 4px;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 1rem auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    ol {
+        padding-left: 1.5rem;
+    }
+    ol li {
+        margin-bottom: 0.8rem;
+    }
+    footer {
+        text-align: center;
+        background-color: #004d40;
+        color: #fff;
+        padding: 1rem 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    footer p {
+        font-size: 0.9rem;
+    }
